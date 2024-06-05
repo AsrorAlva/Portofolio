@@ -1,0 +1,362 @@
+/* Home.css */
+
+.wrap {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.wrap2 {
+  padding-top: 10%;
+}
+
+.wrap3 {
+  padding-top: 1%;
+}
+
+.wrap4 {
+  padding-top: 1%;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Decoration styling */
+.decoration1,
+.decoration2 {
+  position: absolute;
+  width: 40%;
+  height: 70%;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 255, 0, 0.7),
+    rgba(0, 128, 0, 0.7)
+  );
+  border-radius: 35%;
+  animation: pulse 6s ease-in-out infinite;
+  transition: background 0.5s ease;
+}
+
+.decoration1 {
+  top: 50%;
+  left: -15%;
+  animation-delay: 0s;
+}
+
+.decoration2 {
+  bottom: 50%;
+  right: -15%;
+  animation-delay: 0s;
+}
+
+.decoration1:hover,
+.decoration2:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 255, 255, 0.7),
+    rgba(0, 0, 255, 0.7)
+  );
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.home {
+  background-color: #000;
+  color: #fff;
+}
+
+.home1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: #00ff00; /* A bright green color for "HELLO!" */
+  margin-bottom: 20px;
+}
+
+.home2 {
+  font-size: 30px;
+  color: #ddd; /* A light grey color for the name */
+}
+
+/* About Style */
+/* Styles for the section with class "about" */
+.about {
+  background-color: #000000; /* Black background */
+  padding: 80px 0px; /* Sesuaikan padding atas dan bawah */
+}
+
+/* Styles for the div with class "about1" */
+.about1 {
+  margin-bottom: 20px; /* Slightly increased margin bottom */
+}
+
+.about1 h1 {
+  font-size: 42px; /* Slightly larger font size */
+  margin-top: 30%;
+  color: #ffffff; /* White text color */
+}
+
+/* Styles for the div with class "about-content" */
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px; /* Increased gap between the two columns */
+}
+
+/* Styles for the div with class "about2" */
+.about2 {
+  position: relative; /* Position relative for positioning the bg-image-keren */
+  flex: 1;
+}
+
+.bg-image-keren {
+  width: 50%;
+  height: 100%;
+  background-color: #c0c0c0;
+  z-index: auto;
+  border-radius: 15%;
+  margin-left: -16%;
+}
+
+.about2 img {
+  max-width: 450px;
+  height: auto;
+  margin: 0px 50px -4px;
+}
+
+/* Styles for the div with class "about3" */
+.about3 {
+  flex: 1;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  color: #ffffff; /* White text color */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+  margin-right: 0%; /* Anda bisa menghapus ini jika tidak diperlukan */
+  width: fit-content; /* Mengatur lebar sesuai dengan konten */
+}
+
+/* Jika hanya ingin mengatur lebar p saja di dalam .about3 */
+.about3 p {
+  width: fit-content; /* Mengatur lebar paragraf saja sesuai dengan konten */
+}
+
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about1 {
+    font-size: 32px; /* Slightly larger font size */
+    margin-bottom: 10px; /* Reduced margin bottom */
+    margin-top: 20px;
+    color: #ffffff; /* White text color */
+  }
+
+  .about1 h1 {
+    font-size: 32px; /* Slightly larger font size */
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color: #ffffff; /* White text color */
+  }
+
+  .about2,
+  .about3 {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .bg-image-keren {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .about3 {
+    width: 90%;
+  }
+  .about3 p {
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff; /* White text color */
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.7
+    ); /* Semi-transparent black background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+    margin-right: 14%; /* Anda bisa menghapus ini jika tidak diperlukan */
+    width: 70%; /* Mengatur lebar sesuai dengan konten */
+  }
+}
+
+.icon-icon {
+  display: flex;
+  justify-content: center; /* Menggeser ke kanan */
+  margin-bottom: 10%;
+}
+
+.icon-icon .icon {
+  font-size: 36px;
+  margin-right: 10px;
+}
+
+/* CSS untuk bagian portfolio */
+.portfolio {
+  background-color: #000000;
+  padding: 80px 20px; /* Sesuaikan padding atas dan bawah */
+}
+
+.wrap-porto {
+  font-size: 42px; /* Slightly larger font size */
+  margin-bottom: 10px; /* Reduced margin bottom */
+  color: #ffffff; /* White text color */
+}
+
+.wrap-porto h1 {
+  font-size: 42px; /* Slightly larger font size */
+  margin-top: -40%;
+  margin-bottom: 50%;
+  color: #ffffff; /* White text color */
+}
+
+/* CSS untuk content-porto */
+.content-porto {
+  display: flex;
+  justify-content: flex-end; /* Konten akan disusun di sebelah kanan */
+  gap: 20px; /* Jarak antara elemen */
+}
+
+.container-porto1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Memusatkan elemen dalam kolom */
+}
+
+.container-porto1 a {
+  text-decoration: none;
+  color: #ffffff; /* Warna teks */
+  font-size: 20px; /* Ukuran teks */
+  font-weight: 600; /* Ukuran teks */
+  padding: 10px 20px; /* Ukuran teks */
+  border-radius: 5px; /* Ukuran teks */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-porto1 img {
+  width: 100%; /* Menyesuaikan lebar gambar dengan lebar kolom */
+  max-width: 300px; /* Lebar maksimum gambar */
+  height: auto; /* Menyesuaikan tinggi gambar dengan tinggi kolom */
+  margin-bottom: 20px; /* Tambahkan margin bawah untuk jarak antar gambar */
+}
+
+@media (max-width: 768px) {
+  .content-porto {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrap-porto {
+    font-size: 32px; /* Slightly larger font size */
+    margin-bottom: 10px; /* Reduced margin bottom */
+    margin-top: 20px;
+    color: #ffffff; /* White text color */
+  }
+  .wrap-porto h1 {
+    font-size: 32px; /* Slightly larger font size */
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color: #ffffff; /* White text color */
+  }
+
+  .container-porto1 {
+    margin-bottom: 20px;
+  }
+}
+
+/* CSS untuk bagian contact */
+.contact {
+  background-color: #000000;
+  padding: 0px 0px; /* Sesuaikan padding atas dan bawah */
+}
+
+.wrap-contact {
+  font-size: 42px; /* Slightly larger font size */
+  margin-bottom: 10px; /* Reduced margin bottom */
+  color: #ffffff; /* White text color */
+}
+
+.wrap-contact h1 {
+  font-size: 42px; /* Slightly larger font size */
+  margin-top: -100%;
+  margin-bottom: 50%;
+  color: #ffffff; /* White text color */
+}
+
+.contact-content {
+  display: flex;
+  justify-content: flex-end; /* Konten akan disusun di sebelah kanan */
+  gap: 20px; /* Jarak antara elemen */
+}
+
+.content-contact p {
+  font-size: 18px; /* Ukuran teks */
+  line-height: 1.6; /* Jarak antar baris */
+  margin-bottom: 20px; /* Margin bawah */
+  color: #ffffff; /* Warna teks */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+  margin-right: 0%; /* Anda bisa menghapus ini jika tidak diperlukan */
+  width: fit-content; /* Mengatur lebar sesuai dengan konten */
+}
+
+.content-contact a {
+  color: #00ff00; /* Warna tautan hijau cerah */
+  text-decoration: none; /* Tanpa garis bawah */
+  font-weight: bold; /* Teks tebal */
+}
+
+.content-contact a:hover {
+  color: #ffffff; /* Warna tautan saat hover putih */
+  text-decoration: underline; /* Garis bawah saat hover */
+}
+
+@media (max-width: 768px) {
+  .content-contact p {
+    width: 90%; /* Mengatur lebar sesuai dengan konten */
+    margin: 0 auto; /* Tengah-tengah halaman */
+    padding: 20px; /* Padding untuk jarak dalam konten */
+  }
+
+  .content-contact {
+    text-align: center; /* Teks rata tengah */
+  }
+}
