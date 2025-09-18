@@ -1,0 +1,8 @@
+{
+  "title": "Contact Me",
+  "description": "Feel free to send me a message or connect with me on LinkedIn & GitHub.",
+  "socials": {
+    "linkedin": "https://linkedin.com/in/yourlinkedin",
+    "github": "https://github.com/yourgithub"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "title": "About Me",
+  "description": "I am a passionate Informatics Engineering student with experience in building interactive applications, from web development to virtual reality. I enjoy turning ideas into immersive digital experiences.",
+  "image": "/images/me.jpg",
+  "buttonText": "See My Projects",
+  "buttonLink": "#projects"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Virtual Reality Borobudur",
+    "desc": "Developed in collaboration with KBRI Hungary to showcase Indonesian cultural heritage in VR (Unity, Oculus Quest 2). Role: Project Manager.",
+    "link": "#",
+    "year": 2024
+  },
+  {
+    "title": "TripPlanner",
+    "desc": "A web application to plan and organize trips with customizable itineraries.",
+    "link": "#",
+    "year": 2023
+  },
+  {
+    "title": "Mobile TripPlanner",
+    "desc": "Mobile version of TripPlanner built with Flutter for seamless travel planning.",
+    "link": "#",
+    "year": 2023
+  },
+  {
+    "title": "NgajiYuk",
+    "desc": "A mobile app to support Quran recitation and study in an interactive way.",
+    "link": "#",
+    "year": 2022
+  },
+  {
+    "title": "Web Inventory System",
+    "desc": "Built with React and Node.js to manage stock efficiently.",
+    "link": "#",
+    "year": 2022
+  }
+]
